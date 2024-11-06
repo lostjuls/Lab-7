@@ -5,10 +5,28 @@
     border: none; 
     cursor: pointer; 
     transition: all ;
+    transition-duration: .5s;
 
 }
 
 .transition-button:hover {
     background-color: green;
     
+}
+
+.background-color: blue; 
+
+.transition-div{
+
+    padding: 10px 20px; 
+    background-color: rgb(255, 4, 0); 
+    color: rgb(255, 255, 255); 
+    height: 100px;
+    width: 100px;
+    transition-duration: 1s;
+
+}
+.transition-div:hover {
+    height: 200px;
+    width: 200px;
 }
