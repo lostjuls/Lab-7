@@ -33,7 +33,7 @@
     
     color: rgb(194, 183, 226);
     background-color: rgb(0, 255, 13); 
-    font size: 16px;
+    font-size: 16px;
     transition: all;
     transition-duration: .3s;
 
@@ -45,6 +45,7 @@
 .transition-image{
     
     opacity: 1;
+    cursor: pointer; 
     transition: all;
     transition-duration: .8;
 
@@ -88,12 +89,25 @@
 }
 
 .translate-div { 
-    background-color: pink; 
+    background-color: rgb(255, 215, 192); 
     color: white;  
-    transition: all ;
-    
 }
-.translate-div {
+   .translate-div {
 
     transform: translatex(-100px)
+}
+
+.skew-heading
+{ transition: transform 0.5s;
+}
+
+.skew-heading:hover
+{ transform: skewX(20deg);
+}
+
+
+{ transition: transform 0.5s; } 
+.skew-paragraph:hover 
+
+{ transform: skewY(15deg);
 }
