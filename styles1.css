@@ -33,7 +33,7 @@
     
     color: rgb(194, 183, 226);
     background-color: rgb(0, 255, 13); 
-    font size: 16px
+    font size: 16px;
     transition: all;
     transition-duration: .3s;
 
@@ -74,7 +74,7 @@
   transform: scale(.75);
 
 
-  
+
 }
 .translate-button { 
     background-color: pink; 
@@ -85,4 +85,15 @@
 .translate-button:hover {
 
     transform: translate(50px, 20px)
+}
+
+.translate-div { 
+    background-color: pink; 
+    color: white;  
+    transition: all ;
+    
+}
+.translate-div {
+
+    transform: translatex(-100px)
 }
