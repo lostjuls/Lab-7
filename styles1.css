@@ -41,3 +41,48 @@
 .transition-text:hover {
   font-size: 24px;
 }
+
+.transition-image{
+    
+    opacity: 1;
+    transition: all;
+    transition-duration: .8;
+
+}
+.transition-image:hover {
+  opacity: .5;
+}
+.scale-div{
+    
+    color: rgb(194, 183, 226);
+    background-color: rgb(0, 255, 13); 
+    transition: all;
+   
+
+}
+.scale-div:hover {
+  transform: scale(1.5);
+}
+.scale-image.{
+    
+    
+    transition: all;
+   
+
+}
+.scale-image:hover {
+  transform: scale(.75);
+
+
+  
+}
+.translate-button { 
+    background-color: pink; 
+    color: white;  
+    transition: all ;
+    
+}
+.translate-button:hover {
+
+    transform: translate(50px, 20px)
+}
